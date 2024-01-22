@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T09:08:58.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.21" etag="AcwIM_rV_932gxH3ae57" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T09:12:15.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iWHlk43lS234wTqPwKMi" version="22.1.21" type="github">
   <diagram name="Page-1" id="co-h_3WA3pOMl-SaSILO">
-    <mxGraphModel>
+    <mxGraphModel dx="1114" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ucij6AKZ2nP0Um9wgcu7-1" value="user" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ucij6AKZ2nP0Um9wgcu7-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ucij6AKZ2nP0Um9wgcu7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="310" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ucij6AKZ2nP0Um9wgcu7-3" value="mengunjungi perpus" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ucij6AKZ2nP0Um9wgcu7-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ucij6AKZ2nP0Um9wgcu7-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="480" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ucij6AKZ2nP0Um9wgcu7-5" value="isi form pengunjung" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ucij6AKZ2nP0Um9wgcu7-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="480" as="sourcePoint" />
+            <mxPoint x="450" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ucij6AKZ2nP0Um9wgcu7-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="150" as="sourcePoint" />
+            <mxPoint x="490" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ucij6AKZ2nP0Um9wgcu7-8" value="lihat daftar pengunjung" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ucij6AKZ2nP0Um9wgcu7-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="480" as="sourcePoint" />
+            <mxPoint x="490" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ucij6AKZ2nP0Um9wgcu7-10" value="pencairan buku" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
