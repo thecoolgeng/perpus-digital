@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T02:49:21.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.1" etag="NDBiBowikRRnnSbUM3BO" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T03:01:05.445Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="XtaT9VSzBp9OaccEoXux" version="23.1.1" type="github">
   <diagram name="Page-1" id="vannHEaVoR8nuyqR9Ybg">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cczNIPMRQPESyJboM_py-2" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="138.13" y="303.13" width="518.75" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-3" value="pengunjung" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="310" width="91.87" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-4" value="pustakawan" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="310" width="91.87" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-7" value="PERPUS DIGITAL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="342.51" y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-8" value="FORM PENGUNJUNG" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323.76" y="240" width="147.49" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-9" value="PENCARIAN BUKU" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323.76" y="350" width="147.49" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-10" value="LAPORAN STATISTIK" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323.76" y="570" width="147.49" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-11" value="DETAIL BUKU" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323.76" y="458.13" width="147.49" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cczNIPMRQPESyJboM_py-3" target="cczNIPMRQPESyJboM_py-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="cczNIPMRQPESyJboM_py-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="470" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="cczNIPMRQPESyJboM_py-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-17" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cczNIPMRQPESyJboM_py-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="600" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cczNIPMRQPESyJboM_py-3" target="cczNIPMRQPESyJboM_py-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="430" as="sourcePoint" />
+            <mxPoint x="320" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.992;entryY=0.523;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cczNIPMRQPESyJboM_py-4" target="cczNIPMRQPESyJboM_py-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="430" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cczNIPMRQPESyJboM_py-20" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cczNIPMRQPESyJboM_py-4" target="cczNIPMRQPESyJboM_py-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
